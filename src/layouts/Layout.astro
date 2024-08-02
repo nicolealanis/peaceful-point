@@ -1,4 +1,5 @@
 ---
+
 interface Props {
 	title: string;
 }
@@ -24,8 +25,8 @@ x-init="
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
-		<link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura-earthly.css" media="screen" id="light-theme" />
-    	<link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura-dark.css" media="screen" id="dark-theme" disabled />
+		<link rel="stylesheet" href="./public/styles/sakura-earthly.css" media="screen" id="light-theme" />
+    	<link rel="stylesheet" href="./public/styles/sakura-dark.css" media="screen" id="dark-theme" disabled />
     	<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
 	</head>
 	<body>
