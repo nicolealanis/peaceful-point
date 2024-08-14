@@ -11,6 +11,10 @@ html {
 
 body {
   font-size: 1.8rem;
+<<<<<<< HEAD
+=======
+  font-family: "Courier New";
+>>>>>>> 6ab242202f5bdb1b2e0859d6b9d20511d62bc68b
   line-height: 1.618;
   max-width: 38em;
   margin: auto;
@@ -76,6 +80,11 @@ small, sub, sup {
 
 hr {
   border-color: #007559;
+<<<<<<< HEAD
+=======
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+>>>>>>> 6ab242202f5bdb1b2e0859d6b9d20511d62bc68b
 }
 
 a {
@@ -128,6 +137,10 @@ img, video {
 /* Pre and Code */
 pre {
   background-color: #f7f7f7;
+<<<<<<< HEAD
+=======
+  font-family: Menlo, Monaco, "Courier New", monospace;
+>>>>>>> 6ab242202f5bdb1b2e0859d6b9d20511d62bc68b
   display: block;
   padding: 1em;
   overflow-x: auto;
@@ -138,6 +151,10 @@ pre {
 
 code, kbd, samp {
   font-size: 0.9em;
+<<<<<<< HEAD
+=======
+  font-family: Menlo, Monaco, "Courier New", monospace;
+>>>>>>> 6ab242202f5bdb1b2e0859d6b9d20511d62bc68b
   padding: 0 0.5em;
   background-color: #f7f7f7;
   white-space: pre-wrap;
@@ -145,6 +162,10 @@ code, kbd, samp {
 
 pre > code {
   padding: 0;
+<<<<<<< HEAD
+=======
+  font-family: Menlo, Monaco, "Courier New", monospace;
+>>>>>>> 6ab242202f5bdb1b2e0859d6b9d20511d62bc68b
   background-color: transparent;
   white-space: pre;
   font-size: 1em;
@@ -183,7 +204,11 @@ textarea {
   white-space: nowrap;
   background-color: #007559;
   color: #ffffff;
+<<<<<<< HEAD
   border-radius: 1px;
+=======
+  border-radius: 4px;
+>>>>>>> 6ab242202f5bdb1b2e0859d6b9d20511d62bc68b
   border: 1px solid #007559;
   cursor: pointer;
   box-sizing: border-box;

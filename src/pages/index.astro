@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
+<<<<<<< HEAD
 import SwitchTheme from "../components/SwitchTheme.astro";
 ---
 
@@ -87,5 +88,40 @@ import SwitchTheme from "../components/SwitchTheme.astro";
                 body="Come say hi to our amazing Discord community. ❤️"
             />
         </ul>
+=======
+import Navmenu from "../components/Navmenu.astro";
+import SocialLinks from "../components/SocialLinks.astro";
+
+
+const response = await fetch('https://api.github.com/users/miguelalanis/repos?sort=created&direction=desc');
+const data = await response.json();
+console.log(data[1].name);
+---
+
+<Layout title="Welcome to Astro.">
+    <Navmenu />
+    <main>
+        <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+        <p class="instructions">
+            I am a seasoned graphic designer with over 14 years of experience in
+            creating visually appealing and user-centric designs. My expertise
+            spans across UI design, design systems, and custom illustrations,
+            helping clients bring their digital visions to life.
+        </p>
+        <p>
+            Currently, I work remotely for Notion, where I design template UIs,
+            convert them into HTML and CSS, and provide comprehensive support to
+            our users. I am passionate about crafting elegant and functional
+            designs that enhance user experiences.
+        </p>
+        <SocialLinks />
+        <hr>
+
+        <h2>Projects</h2>
+        <ul>
+            <Card 
+            title={data[1].name} body="This is the body of the project 1" href=""/>
+        
+>>>>>>> 6ab242202f5bdb1b2e0859d6b9d20511d62bc68b
     </main>
 </Layout>

@@ -1,0 +1,50 @@
+---
+import SwitchTheme from '../components/SwitchTheme.astro';
+---
+<header>
+    <nav style="
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.3s;">
+    <a style= "hover: " href="/">
+        Miguel
+    </a>
+    <div style="display: flex; align-items: flex-end;">
+
+        <a style="
+        position: relative;
+        display: block;
+        padding: 0.5rem 1rem; /* px-2 py-2 */
+        transition: color 0.3s, transform 0.3s;
+        " 
+        href="/" 
+        onmouseover="this.style.color='#F59E0B'; this.style.transform='scale(1.05)';" 
+        onmouseout="this.style.color=''; this.style.transform='';">
+            Home
+        </a>
+        <a style="
+        position: relative;
+        display: block;
+        padding: 0.5rem 1rem; /* px-2 py-2 */
+        transition: color 0.3s, transform 0.3s;
+        " 
+        href="/about" 
+        onmouseover="this.style.color='#F59E0B'; this.style.transform='scale(1.05)';" 
+        onmouseout="this.style.color=''; this.style.transform='';">
+            About
+        </a>
+        <a style="
+        position: relative;
+        display: block;
+        padding: 0.5rem 1rem; /* px-2 py-2 */
+        transition: color 0.3s, transform 0.3s;
+        " 
+        href="/blog" 
+        onmouseover="this.style.color='#F59E0B'; this.style.transform='scale(1.05)';" 
+        onmouseout="this.style.color=''; this.style.transform='';">
+            Blog
+        </a>
+        <SwitchTheme/>
+    </div>
+    </nav>
